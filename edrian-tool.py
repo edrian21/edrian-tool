@@ -50,7 +50,7 @@ def menu():
     
     choice = input(f"\n{G}[?] Anong utos mo, Master? : {W}")
     
-    # DITO ANG PAGWAWASTO NG INDENTATION (Dapat lahat ay pantay sa loob ng menu)
+    # INDENTATION FIX: Lahat ng elif ay dapat pantay sa loob ng function
     if choice == '1':
         os.system("termux-vibrate -d 100")
         loading_anim()
